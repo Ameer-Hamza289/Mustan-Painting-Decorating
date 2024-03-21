@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className="container-fluid">
       <div
-      className="row "
+      className="row align-items-center  "
         style={{
           backgroundColor: "white",
           // position: "sticky",
@@ -10,13 +10,14 @@ const Navbar = () => {
           // justifyContent: "space-between",
         }}
       >
-        <div className="col-5">
+        <div className="col-5 " style={{ paddingLeft:"90px"}}>
           <span style={{ fontSize: "24px", fontWeight: "700" }}>
             0420 600 185
           </span>
         </div>
 
-        <div className="col-4 text-end">
+        <div className="col-4 text-end pe-3">
+          <div style={{ cursor:"pointer"}}>
           <svg
             preserveAspectRatio="xMidYMid meet"
             data-bbox="0 -0.023 83.22 79.483"
@@ -70,9 +71,10 @@ const Navbar = () => {
               </g>
             </g>
           </svg>
+          </div>
         </div>
 
-        <div className="col-3 d-flex py-3 " style={{ backgroundColor:"black" }}>
+        <div className="col-3 d-flex py-3 enquire" style={{ backgroundColor:"black" }}>
          <p className="text-white">ENQUIRE {">"} </p>
         </div>
       </div>
