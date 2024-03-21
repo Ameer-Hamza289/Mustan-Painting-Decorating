@@ -5,6 +5,7 @@ import { PersistGate } from "redux-persist/integration/react";
 import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/contact" element={<ContactUs/>} />
+            <Route path="/about" element={<AboutUs/>} />
           </Routes>
         </BrowserRouter>
       </PersistGate>
