@@ -1,36 +1,63 @@
-import ContactComponent from "../components/ContactComponent"
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-import Image1 from "../assets/image2.jpg"
-
+import ContactComponent from "../components/ContactComponent";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Image1 from "../assets/background-About.png";
+import aboutImage from  "../assets/about-pic.png"
 
 const AboutUs = () => {
   return (
     <div style={{ maxWidth: "100vw" }}>
       <Navbar />
       <div
-        className="w-100 opacity-10 py-5 px-7 text-white"
+        className="w-100 opacity-10  text-white"
         style={{
           backgroundImage: `url(${Image1})`,
           minHeight: "245px",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          // opacity:'0.8'
+          zIndex: -1,
         }}
       >
-        <p className=" fw-bold fs-2 text-uppercase">About Us</p>
-        {/* <div> */}
-        <p className="text-uppercase  fw-bold fs-max">Let&apos;s Work</p>
-        <p className="text-uppercase  fw-bold fs-max">Together</p>
-        {/* </div> */}
+        <div
+          className="w-100 h-100 py-5 px-7 z-2"
+          style={{ backgroundColor: "rgba(128, 114, 113,0.4)" }}
+        >
+          <p className=" fw-bold fs-2 text-uppercase ">About Us</p>
+          <p className="text-uppercase  fw-bold fs-max">
+            THE PERTH-BASED PAINTING
+          </p>
+          <p className="text-uppercase  fw-bold fs-max">COMPANY</p>
+        </div>
       </div>
-      <div className="d-flex flex-wrap ">
+      <div className="row m-0">
+        <div className="col-md-6 col-12 py-0 " style={{ backgroundImage:`url(${aboutImage})`, backgroundPosition: "center",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          minHeight:"478px"
+           }}></div>
+        <div className="col-md-6 col-12 p-5">
+          <span className="fs-1 fw-bold ">OUR STORY</span>
+          <p className="my-4">
+            Located in Western Australia, Perth Painting & Deco is a family-run
+            painting business. With more than 12 years of combined painting
+            experience, our team of professionals offers a wide range of
+            painting services to homes and businesses in Perth.
+          </p>
+          <p className="pt-3">
+            Additionally, we recognise the worth of our customer base because we
+            are experts in the business. We prioritise providing great client
+            care in addition to a high-quality finish because of this.
+          </p>
+        </div>
+      </div>
+      {/* <div className="d-flex flex-wrap ">
         <div
           className="bg-black text-white w-50 d-flex justify-content-center align-items-center gap-4"
           style={{ maxHeight: "300px", minHeight: "300px" }}
         >
           <p className="fs-max fw-bold  ">Phone</p>
-          {/* <img src={phone} alt="phone" /> */}
           <svg
             data-bbox="30.499 30 139 139.999"
             viewBox="0 0 200 200"
@@ -48,7 +75,7 @@ const AboutUs = () => {
           </svg>
         </div>
         <div
-          className="bg-secondary text-white w-50 d-flex justify-content-center align-items-center gap-4 "
+          className=" w-50 d-flex justify-content-center align-items-center gap-4 "
           style={{ maxHeight: "300px", minHeight: "300px" }}
         >
           <p className="fs-max fw-bold mb-2 ">Email</p>
@@ -61,16 +88,22 @@ const AboutUs = () => {
             data-type="shape"
           >
             <g>
-              <path fill="white" d="M160.062 165H39.936C28.942 165 20 156.055 20 145.058V54.943C20.001 43.946 28.943 35 39.936 35h120.125c10.994 0 19.938 8.946 19.938 19.943v90.116c0 10.996-8.944 19.941-19.937 19.941zM39.936 44.845c-5.565 0-10.093 4.53-10.093 10.098v90.116c0 5.568 4.528 10.097 10.093 10.097h120.125c5.567 0 10.095-4.529 10.095-10.097V54.943c0-5.568-4.528-10.098-10.095-10.098H39.936z"></path>
-              <path fill="white" d="M100 112.433a4.914 4.914 0 0 1-2.822-.89L22.1 58.975a4.922 4.922 0 0 1 5.643-8.065L100 101.502l72.257-50.591a4.922 4.922 0 0 1 5.643 8.065l-75.078 52.567a4.914 4.914 0 0 1-2.822.89z"></path>
+              <path
+                fill="white"
+                d="M160.062 165H39.936C28.942 165 20 156.055 20 145.058V54.943C20.001 43.946 28.943 35 39.936 35h120.125c10.994 0 19.938 8.946 19.938 19.943v90.116c0 10.996-8.944 19.941-19.937 19.941zM39.936 44.845c-5.565 0-10.093 4.53-10.093 10.098v90.116c0 5.568 4.528 10.097 10.093 10.097h120.125c5.567 0 10.095-4.529 10.095-10.097V54.943c0-5.568-4.528-10.098-10.095-10.098H39.936z"
+              ></path>
+              <path
+                fill="white"
+                d="M100 112.433a4.914 4.914 0 0 1-2.822-.89L22.1 58.975a4.922 4.922 0 0 1 5.643-8.065L100 101.502l72.257-50.591a4.922 4.922 0 0 1 5.643 8.065l-75.078 52.567a4.914 4.914 0 0 1-2.822.89z"
+              ></path>
             </g>
           </svg>
         </div>
-      </div>
-      <ContactComponent/>
+      </div> */}
+      <ContactComponent />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
