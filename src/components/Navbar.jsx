@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid position-fixed ">
       <div
       className="row align-items-center  "
         style={{
