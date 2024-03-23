@@ -97,3 +97,12 @@ button:focus-visible {
 .enquire:hover{
   background-color: white!important;
 }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  /* text-combine-upright:inherit; */
+  /* vertical-align: baseline; */
+  /* writing-mode: vertical-rl;
+  text-orientation: upright; */
+}

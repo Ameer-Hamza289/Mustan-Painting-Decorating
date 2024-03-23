@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/" element={<Home/>} />
             <Route path="/contact" element={<ContactUs/>} />
             <Route path="/about" element={<AboutUs/>} />
+            <Route path="/service" element={<Services/>} />
           </Routes>
         </BrowserRouter>
       </PersistGate>

@@ -1,6 +1,6 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import Image1 from "../assets/image2.jpg"
+import Image1 from "../assets/image4.jpg"
 import ContactComponent from "../components/ContactComponent"
 
 const ContactUs = () => {
