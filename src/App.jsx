@@ -7,9 +7,9 @@ import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
+import Gallery from "./pages/Gallery";
 
 const App = () => {
-
 
   return (
     <Provider store={store}>
@@ -21,6 +21,7 @@ const App = () => {
             <Route path="/contact" element={<ContactUs/>} />
             <Route path="/about" element={<AboutUs/>} />
             <Route path="/service" element={<Services/>} />
+            <Route path="/gallery" element={<Gallery/>} />
           </Routes>
         </BrowserRouter>
       </PersistGate>

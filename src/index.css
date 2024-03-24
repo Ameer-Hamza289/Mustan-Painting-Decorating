@@ -106,3 +106,15 @@ button:focus-visible {
   /* writing-mode: vertical-rl;
   text-orientation: upright; */
 }
+
+.gallery{
+  /* background-image: linear-gradient(to); */
+  background:
+  linear-gradient(127deg, rgb(133, 133, 82), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(95, 135, 91,1), rgba(0,0,255,0) 70.71%),
+  linear-gradient(217deg, rgba(141, 134, 78,1), rgba(255,0,0,0) 70.71%);
+}
+
+/* .card {
+  flex: 1 0 auto;  
+} */
