@@ -1,7 +1,13 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom/dist";
+import MenuDrawer from "./MenuDrawer";
 
 const Navbar = () => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
+  const [showMenu, setShowMenu] = useState(false);
+  const handleClose = () => {
+    setShowMenu(false);
+  };
   return (
     <div className="container-fluid position-fixed ">
       <div
@@ -20,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className="col-4 text-end pe-3">
-          <div style={{ cursor: "pointer" }}>
+          <div style={{ cursor: "pointer" }} onClick={()=>setShowMenu(true)}>
             <svg
               preserveAspectRatio="xMidYMid meet"
               data-bbox="0 -0.023 83.22 79.483"
@@ -79,7 +85,7 @@ const Navbar = () => {
         <div
           onClick={() => navigate("/contact")}
           className="col-3 d-flex py-4 enquire justify-content-end pe-4 align-items-center "
-          style={{ backgroundColor: "black",cursor:"pointer" }}
+          style={{ backgroundColor: "black", cursor: "pointer" }}
         >
           <div>
             <svg
@@ -113,6 +119,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <MenuDrawer showMenu={showMenu} handleClose={handleClose} />
     </div>
   );
 };

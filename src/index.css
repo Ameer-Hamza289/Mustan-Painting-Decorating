@@ -115,6 +115,26 @@ button:focus-visible {
   linear-gradient(217deg, rgba(141, 134, 78,1), rgba(255,0,0,0) 70.71%);
 }
 
+.Home{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.newsletter::placeholder{
+  color:white !important;
+  border:1px solid white!important;
+  outline: none!important;
+  padding: 20px!important;
+  margin:0px;
+
+
+}
+
+.menuItems{
+  font-size: 36px!important;
+  font-weight: 700!important;
+}
+
 /* .card {
   flex: 1 0 auto;  
 } */
