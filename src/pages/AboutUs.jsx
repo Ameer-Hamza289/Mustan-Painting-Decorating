@@ -6,8 +6,9 @@ import aboutImage from  "../assets/about-pic.png"
 
 const AboutUs = () => {
   return (
-    <div style={{ maxWidth: "100vw" }}>
+    <>
       <Navbar />
+    <div style={{ maxWidth: "100vw" ,paddingTop:"72px"}}>
       <div
         className="w-100 opacity-10  text-white"
         style={{
@@ -103,6 +104,7 @@ const AboutUs = () => {
       <ContactComponent />
       <Footer />
     </div>
+    </>
   );
 };
 
