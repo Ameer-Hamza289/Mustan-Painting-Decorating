@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo1.png"
+import Logo from "../assets/logo2.png"
 
 const IdeaBrief = () => {
   return (
@@ -16,8 +16,8 @@ const IdeaBrief = () => {
         </p>
       </div>
       <div className="col-md-5 col-12 p-0 m-0 d-flex flex-column justify-content-between ">
-        <div className="col-12 d-flex justify-content-center">
-        <img src={Logo} alt="logo" height={200} width={200} />
+        <div className="col-12 d-flex justify-content-center pt-4">
+        <img src={Logo} alt="logo" height={180} width={200} />
 
         </div>
         <div className="col-12 ">
