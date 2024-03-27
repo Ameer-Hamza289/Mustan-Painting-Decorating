@@ -107,6 +107,7 @@ button:focus-visible {
   text-orientation: upright; */
 }
 
+
 .gallery{
   /* background-image: linear-gradient(to); */
   background:
@@ -118,6 +119,7 @@ button:focus-visible {
 .Home{
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  width: "94%" ;
 }
 
 .newsletter::placeholder{
@@ -150,3 +152,20 @@ button:focus-visible {
 /* .card {
   flex: 1 0 auto;  
 } */
+
+
+/* responsiveness for mobile */
+@media only screen and (max-width: 767px) {
+
+  .HomeView{
+    width:"100%"!important;
+    display: block!important;
+  }
+  .HomeWelcome{
+    padding-inline: 20px!important;
+  }
+  .fs-max{
+    font-size: 30px;
+  }
+ 
+}

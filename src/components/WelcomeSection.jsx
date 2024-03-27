@@ -4,7 +4,7 @@ import logo from "../assets/Logo1.png";
 
 const WelcomeSection = () => {
   return (
-    <div className="py-5" style={{ paddingInline: "80px" }}>
+    <div className="py-5 HomeWelcome w-100 m-0" style={{ paddingInline: "80px" }}>
       <div className="row m-0">
         <div className="d-flex justify-content-between w-100">
           <span
@@ -64,7 +64,7 @@ const WelcomeSection = () => {
             </svg>
           </div>
         </div>
-        <div className="col-md-6 col-12 d-flex justify-content-end align-items-center">
+        <div className="col-md-6 col-12 d-md-flex d-none justify-content-end align-items-center">
           <img src={logo} height={300} alt="logo" />
         </div>
       </div>
