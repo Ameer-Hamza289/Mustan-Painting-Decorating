@@ -149,10 +149,15 @@ button:focus-visible {
   background-color: rgba(255,255,255,0.2);
 }
 
+.Performance{
+  padding: 60px 75px;
+}
 /* .card {
   flex: 1 0 auto;  
 } */
-
+.performanceText{
+   font-size: 42px;
+}
 
 /* responsiveness for mobile */
 @media only screen and (max-width: 767px) {
@@ -173,6 +178,12 @@ button:focus-visible {
   }
   .serviceText{
     font-size: 32px!important;
+  }
+  .Performance{
+    padding: 60px 25px;
+  }
+  .performanceText{
+    font-size: 32px;
   }
  
 }

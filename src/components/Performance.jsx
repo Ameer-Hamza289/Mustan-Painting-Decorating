@@ -3,8 +3,8 @@ import HomePic from "../assets/HomePic.jpeg";
 const Performance = () => {
   return (
     <div className="row m-0 z-0 HomeService ">
-            <div className="col-6 " style={{ padding: "60px 75px" }}>
-              <p className=" fw-bold lh-1" style={{ fontSize: "42px" }}>
+            <div className="col-md-6 col-12 Performance">
+              <p className=" fw-bold performanceText" style={{ lineHeight:1.3}} >
                 DRIVEN BY PERFORMANCE
               </p>
               <p className="my-5 fs-5">
@@ -17,11 +17,11 @@ const Performance = () => {
                 feature wall project with distinction.
               </p>
             </div>
-            <div className="col-6 p-0">
-              <img src={HomePic} alt="image" width="100%" />
+            <div className="col-md-6 col-12 p-md-0 px-4">
+              <img src={HomePic} alt="image" width="100%" style={{ objectFit:"cover"}} />
             </div>
 
-            <div className="col-12 py-5 d-flex justify-content-around">
+            <div className="col-12 py-5 d-flex justify-content-around flex-wrap">
               <div className="text-center">
                 <p className="m-0 fw-bold fs-max">5</p>
                 <p className="fw-bold">Dedicated Team Members!</p>
