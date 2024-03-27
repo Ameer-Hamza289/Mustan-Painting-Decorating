@@ -11,10 +11,10 @@ import WelcomeSection from "../components/WelcomeSection";
 
 const Home = () => {
   return (
-    <div className="d-flex" style={{ height: "100vh" }}>
+    <div className="d-md-flex" style={{ height: "100vh" }}>
       <HomeNavbar />
-      <div style={{ width: "94%", overflowY: "scroll" }}>
-        <div className="Home text-white ">
+      <div className="HomeView" >
+        <div className="Home text-white w-100">
           <WelcomeSection />
           <Services />
           <Performance />
