@@ -185,5 +185,11 @@ button:focus-visible {
   .performanceText{
     font-size: 32px;
   }
+  .HomeGallery{
+    padding:40px 25px 40px 25px!important ;
+  }
+  .GalleryContainer{
+    padding-block: 20px!important;
+  }
  
 }

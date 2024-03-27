@@ -6,23 +6,23 @@ import Gallery5 from "../assets/gallery-5.png";
 
 const HomeGallery = () => {
   return (
-    <div className="row m-0 " style={{ padding: "40px 0px 40px 60px" }}>
+    <div className="row m-0 HomeGallery" style={{ padding: "40px 0px 40px 60px" }}>
       <div className="col-md-4 col-12">
         <p className="fs-max fw-bold " style={{ lineHeight: 1.2 }}>
           A QUICK PEEK OF OUR BEAUTIFUL GALLERY
         </p>
-        <p className="pt-3">Check out our best work around Perth.</p>
+        <p className="pt-3">Check out our best work all around.</p>
       </div>
-      <div className="col-md-8 col-12 px-0" style={{ paddingBlock: "100px" }}>
-        <div className="col-12 d-flex justify-content-end pt-5">
-          <div className="col-4">
+      <div className="col-md-8 col-12 px-0 GalleryContainer" style={{ paddingBlock: "100px" }}>
+        <div className="col-12 d-flex flex-wrap justify-content-md-end justify-content-center pt-5">
+          <div className="col-md-4 col-12">
             <img src={Gallery1} alt="gallery-1" className="w-100" />
           </div>
-          <div className="col-4">
+          <div className="col-md-4 col-12">
             <img src={Gallery2} alt="gallery-1" className="w-100" />
           </div>
         </div>
-        <div className="col-12 d-flex">
+        <div className="col-12 d-flex flex-wrap">
           <div className="col-md-4 col-12">
             <img src={Gallery3} alt="gallery-1" className="w-100" />
           </div>
