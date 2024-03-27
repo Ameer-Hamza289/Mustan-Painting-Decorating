@@ -76,6 +76,9 @@ button:focus-visible {
 .px-7{
   padding-inline: 80px;
 }
+.ps-6{
+  padding-left: 60px;
+}
 
 .fs-max{
   font-size: 52px;
@@ -200,6 +203,9 @@ button:focus-visible {
   .reviewCard{
     padding-inline: 22px!important;
     margin-bottom: 40px;
+  }
+  .IdeaBriefContainer{
+    padding-left: 30px!important;
   }
  
   

@@ -2,7 +2,7 @@ import Logo from "../assets/logo2.png"
 
 const IdeaBrief = () => {
   return (
-    <div className=" row pt-5 m-0" style={{paddingLeft:"70px"}}>
+    <div className=" row pt-5 m-0 IdeaBriefContainer " style={{paddingLeft:"70px"}}>
       <div className="col-md-7 col-12" style={{ padding:"0px 80px 60px 0px"}}>
         <p className="fs-max fw-bold " style={{ lineHeight: 1.3 }}>
           NO JOB IS TOO BIG OR TOO SMALL!!
@@ -16,7 +16,7 @@ const IdeaBrief = () => {
         </p>
       </div>
       <div className="col-md-5 col-12 p-0 m-0 d-flex flex-column justify-content-between ">
-        <div className="col-12 d-flex justify-content-center pt-4">
+        <div className="col-12 d-flex justify-content-md-center pt-md-4 ps-md-0 ps-6 mb-md-0 mb-5">
         <img src={Logo} alt="logo" height={180} width={200} />
 
         </div>
