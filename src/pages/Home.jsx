@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="d-md-flex" style={{ height: "100vh" }}>
       <HomeNavbar />
-      <div className="HomeView" >
+      <div className="HomeView" style={{ overflowY:"auto"}}>
         <div className="Home text-white w-100">
           <WelcomeSection />
           <Services />

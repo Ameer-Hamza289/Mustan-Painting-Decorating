@@ -13,7 +13,7 @@ const HomeNavbar = () => {
       <div
         className="d-md-flex d-none justify-content-center align-items-center "
         onClick={() => setShowMenu(!showMenu)}
-        style={{ width: "6%" }}
+        style={{ minWidth: "6%" }}
       >
         <div style={{ cursor: "pointer" }}>
           <svg
