@@ -191,5 +191,16 @@ button:focus-visible {
   .GalleryContainer{
     padding-block: 20px!important;
   }
+  .reviews{
+    padding-inline: 25px!important;
+  }
+  .reviewHeading{
+    font-size: 32px!important;
+  }
+  .reviewCard{
+    padding-inline: 22px!important;
+    margin-bottom: 40px;
+  }
+ 
   
 }
