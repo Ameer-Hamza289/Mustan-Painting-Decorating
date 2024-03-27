@@ -5,8 +5,8 @@ import wall from "../assets/wall-icon.png";
 const Services = () => {
   return (
     <div className="row HomeService m-0">
-            <div className="col-4 py-5  " style={{ paddingInline: "80px" }}>
-              <p className=" mb-0 fw-bold" style={{ fontSize: "40px" }}>
+            <div className="col-md-4 col-12 py-5 HomeServiceText " style={{ paddingInline: "80px" }}>
+              <p className=" mb-0 fw-bold serviceText" style={{ fontSize: "40px" }}>
                 GIVE YOUR BUSINESS OR HOME A FRESH COAT OF PAINT
               </p>
               <p className="mt-4" style={{ fontSize: "20px" }}>
@@ -16,15 +16,15 @@ const Services = () => {
               </p>
               <p className="mt-4" style={{ fontSize: "20px" }}>
                 Put your business&apos; best foot forwards by using a qualified
-                painting service to portray your organisation properly. For more
+                painting service to portray your organization properly. For more
                 than 12 years, we have painted a wide range of commercial
                 facilities, including offices, schools, retail stores, and
                 warehouses.
               </p>
             </div>
-            <div className="col-8 px-0">
+            <div className="col-md-8 col-12 px-0">
               <div className="col-12">
-                <div className="col-6 Service1Home p-5 pb-4">
+                <div className="col-md-6 col-12 Service1Home p-5 pb-4">
                   <img
                     src={homeIcon}
                     height={40}
@@ -40,8 +40,8 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-12 d-flex justify-content-end">
-                <div className="col-6 Service1Home p-5 pb-4">
+              <div className="col-12 d-flex justify-content-md-end">
+                <div className="col-md-6 col-12 Service1Home p-5 pb-4">
                   <img
                     src={homeIcon2}
                     height={40}
@@ -58,8 +58,8 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-12 d-flex justify-content-start">
-                <div className="col-6 Service1Home p-5 pb-4">
+              <div className="col-12 d-flex justify-content-md-start">
+                <div className="col-md-6 col-12 Service1Home p-5 pb-4">
                   <img
                     src={wall}
                     height={40}

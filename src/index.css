@@ -167,5 +167,12 @@ button:focus-visible {
   .fs-max{
     font-size: 30px;
   }
+  .HomeServiceText{
+    padding-inline: 25px!important;
+
+  }
+  .serviceText{
+    font-size: 32px!important;
+  }
  
 }
