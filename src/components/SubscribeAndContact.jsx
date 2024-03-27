@@ -1,10 +1,10 @@
 const SubscribeAndContact = () => {
   return (
     <div
-      className="row justify-content-end mx-0 gap-4"
+      className="row justify-content-end mx-0 gap-4 flex-wrap px-md-0 px-2"
       style={{ paddingBottom: "60px" }}
     >
-      <div className="col-3 ">
+      <div className="col-md-3 col-12 ">
         <p className="text-uppercase fw-bold fs-5" style={{ color: "#3BB54A" }}>
           Subscribe to our newsletter
         </p>
@@ -21,7 +21,7 @@ const SubscribeAndContact = () => {
           SUBMIT
         </div>
       </div>
-      <div className="col-6 ">
+      <div className="col-md-6 col-12 ">
         <p className="fs-5 fw-bold ">FOR ANY INFORMATION CONTACT US</p>
         <div style={{ maxWidth:"450px" }} >
           <input
