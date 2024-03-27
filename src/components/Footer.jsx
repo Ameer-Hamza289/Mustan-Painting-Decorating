@@ -17,10 +17,10 @@ const Footer = () => {
         alignItems:"center"
       }}
     >
-      <p className="m-0">
+      <p className="m-0 text-md-start text-center">
         &#169; Copyright. All Rights Reserved. Mustan Painting and Decorating
       </p>
-      <p className="m-0">
+      <p className="m-0 d-md-inline-block d-none">
         Website by{" "}
         <span  style={{ fontWeight: "bold", fontSize: "20px" }}>
           Ameer Hamza
