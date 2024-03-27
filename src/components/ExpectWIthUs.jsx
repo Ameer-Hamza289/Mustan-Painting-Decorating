@@ -6,8 +6,8 @@ import Point4 from "../assets/point-4.png";
 const ExpectWIthUs = () => {
   return (
     <div className=" row m-0 py-4">
-       <div className="d-md-none d-block col-md-5 col-12 px-4 text-center mb-2">
-        <p className="fs-max fw-bold" style={{ lineHeight: 1.2 }}>
+       <div className="d-md-none d-block col-md-5 col-12 px-4  mb-2">
+        <p className="fs-max fw-bold text-center" style={{ lineHeight: 1.3 }}>
           WHAT TO EXPECT WITH US!!
         </p>
         <p className="mt-4" style={{ fontSize: "18px" }}>
