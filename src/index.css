@@ -145,5 +145,7 @@
   .Menu{
     padding-left: 20px!important;
   }
-  
+  .homeBtn{
+    max-width: 100%!important;
+  }
 }

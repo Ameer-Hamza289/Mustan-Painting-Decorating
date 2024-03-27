@@ -6,7 +6,7 @@ const WelcomeSection = () => {
   return (
     <div className="py-5 HomeWelcome w-100 m-0" style={{ paddingInline: "80px" }}>
       <div className="row m-0">
-        <div className="d-flex justify-content-between w-100">
+        <div className="d-flex justify-content-between align-items-center w-100 mb-md-0 mb-2">
           <span
             style={{
               fontWeight: 700,
