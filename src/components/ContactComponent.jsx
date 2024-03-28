@@ -14,28 +14,32 @@ const ContactComponent = () => {
             Menu
           </p>
           <div className=" d-flex  flex-md-column justify-content-between gap-2 mt-md-4">
-            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            <Link className="ContactLinks" to="/" style={{ textDecoration: "none", color: "black" }}>
               Home
             </Link>
             <Link
+            className="ContactLinks"
               to="/about"
               style={{ textDecoration: "none", color: "black" }}
             >
               About Us
             </Link>
             <Link
+            className="ContactLinks"
               to="/services"
               style={{ textDecoration: "none", color: "black" }}
             >
               Services
             </Link>
             <Link
+            className="ContactLinks"
               to="/gallery"
               style={{ textDecoration: "none", color: "black" }}
             >
               Gallery
             </Link>
             <Link
+            className="ContactLinks"
               to="/contact"
               style={{ textDecoration: "none", color: "black" }}
             >

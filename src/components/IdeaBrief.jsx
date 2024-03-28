@@ -1,24 +1,27 @@
-import Logo from "../assets/logo2.png"
+import Logo from "../assets/logo2.png";
 
 const IdeaBrief = () => {
   return (
-    <div className=" row pt-5 m-0 IdeaBriefContainer " style={{paddingLeft:"70px"}}>
-      <div className="col-md-7 col-12" style={{ padding:"0px 80px 60px 0px"}}>
+    <div
+      className=" row pt-5 m-0 IdeaBriefContainer "
+      style={{ paddingLeft: "70px" }}
+    >
+      <div className="col-md-7 col-12" style={{ padding: "0px 80px 60px 0px" }}>
         <p className="fs-max fw-bold " style={{ lineHeight: 1.3 }}>
-          NO JOB IS TOO BIG OR TOO SMALL!!
+          From small touch-ups to large-scale projects, we&apos;ve got you
+          covered!
         </p>
         <p className="mb-0">
-          Located in Western Australia, Perth Painting & Deco is a family-run
-          painting business. With more than 12 years of combined painting
-          experience, our team of professionals offers a wide range of painting
-          services to homes and businesses in Perth. We prioritise providing
-          great client care in addition to a high-quality finish of our work.
+          Located in Pakistan, Mustan Painting & Deco is a family-owned business
+          with over 12 years of combined painting experience. Our professional
+          team offers a comprehensive range of painting services to homes and
+          businesses across Pakistan. We prioritize excellent client care
+          alongside delivering high-quality workmanship.
         </p>
       </div>
       <div className="col-md-5 col-12 p-0 m-0 d-flex flex-column justify-content-between ">
         <div className="col-12 d-flex justify-content-md-center pt-md-4 ps-md-0 ps-6 mb-md-0 mb-5">
-        <img src={Logo} alt="logo" height={180} width={200} />
-
+          <img src={Logo} alt="logo" height={180} width={200} />
         </div>
         <div className="col-12 ">
           <div
@@ -55,7 +58,6 @@ const IdeaBrief = () => {
             </svg>
           </div>
         </div>
-
       </div>
     </div>
   );

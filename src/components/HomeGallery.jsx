@@ -9,9 +9,9 @@ const HomeGallery = () => {
     <div className="row m-0 HomeGallery" style={{ padding: "40px 0px 40px 60px" }}>
       <div className="col-md-4 col-12">
         <p className="fs-max fw-bold " style={{ lineHeight: 1.2 }}>
-          A QUICK PEEK OF OUR BEAUTIFUL GALLERY
+        A Sneak Peek of Our Stunning Portfolio
         </p>
-        <p className="pt-3">Check out our best work all around.</p>
+        <p className="pt-3">Explore our finest projects across Pakistan.</p>
       </div>
       <div className="col-md-8 col-12 px-0 GalleryContainer" style={{ paddingBlock: "100px" }}>
         <div className="col-12 d-flex flex-wrap justify-content-md-end justify-content-center pt-5">
